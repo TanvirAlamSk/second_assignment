@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.header { grid-area: header; }
+ .menu { grid-area: menu; }
+ .hero { grid-area: hero; }
+ .main { grid-area: main; }
+ .banner { grid-area: banner; }
+ .extra { grid-area: extra; }
+ .image { grid-area: image; }
+ .grid {
+   grid-template-areas:
+     "header menu menu menu"
+     "hero hero hero hero"
+     "hero hero hero hero"
+     "main main . image"
+     "main main . extra"
+     "banner banner banner banner";
+ }
+
+
+    </style>
+</head>
+<body>
+    <div class="grid" style="color: white;">
+        <div class="header" style="background-color: red;">header</div>
+        <div class="menu" style="background-color: rgb(81, 81, 60);">menu</div>
+        <div class="hero" style="background-color: blue;">hero</div>
+        <div class="main" style="background-color: green;">main</div>
+        <div class="banner" style="background-color: orange;">banner</div>
+        <div class="extra" style="background-color: cyan;">extra</div>
+        <div class="image" style="background-color: purple;">image</div>
+       </div>
+</body>
+</html>
