@@ -7,8 +7,6 @@
     .title-body {
         display: flex;
         flex-direction: column;
-        /* justify-content:center; */
-        /* align-items:center; */
         text-align: center;
     }
     .greatest-show{
@@ -63,6 +61,9 @@
         text-align: left;
         padding-right:0;
     }
+    .greatest-show{
+        /* width: 100%; */
+    }
     /* middle */
     .button-items{
         display: grid;
@@ -95,7 +96,7 @@
         width: 350px;
         margin-bottom: 7px;
     }
-/* footer */
+
   .footer-link{
     display: grid;
     grid-template-columns: repeat(4,1fr);
