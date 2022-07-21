@@ -202,9 +202,6 @@ footer{
     /* align-items: center; */
     color: aliceblue;
 }
-.footer-link goal{
-
-}
 .footer-link a{
     padding: 10px;
     color: aliceblue;
@@ -223,8 +220,5 @@ hr{
 
 /* for resposive */
 @media screen and (max-width:768px){
-    .title-body >{
-        display: block;
-
-    }
+    
 }
